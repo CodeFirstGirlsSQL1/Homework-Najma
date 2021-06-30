@@ -1,1 +1,18 @@
-print('checking if this works')
+Question 1 
+Complete definitions for key Git & GitHub terminology GIT WORKFLOW FUNDAMENTALS 
+•	Working Directory – it’s a single checkout of one version of the project
+•	Staging Area – a rough draft area, you can add the next version of your project
+•	Local Repo (head) – this is the repository where we make the local changes, and this is usually on your computer
+•	Remote repo (master) – this is the repository that is on the internet or another server
+WORKING DIRECTORY STATES: 
+• Staged – is one where you can continue making changes to the working directory
+• Modified – as you edit files, Git sees them as ‘modified’ because they’ve been changed since the last commit
+• Committed – this is when the Git command line will state that the working directory is ‘clean’. This means that all the changes we have made to the repository have been committed.
+GIT COMMANDS: 
+•	Git add – add a file as it looks to your next commit
+•	Git commit – commit your staged content as a new commit snapshot
+•	Git push – transmit local branch commits to the remote repository branch
+•	Git fetch – fetch down all the branches from that Git remote
+•	Git merge – merge a remote branch into your current branch to bring it up to date
+•	Git pull – fetch and merge any commits from the tracking remote branch
+
